@@ -1,0 +1,99 @@
+<div class="modal-backdrop" *ngIf="visible" (click)="onClose()">
+  <div class="modal" (click)="$event.stopPropagation()">
+    <!-- Close button -->
+    <button class="close-btn" (click)="onClose()" aria-label="Close modal">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="18" y1="6" x2="6" y2="18"></line>
+        <line x1="6" y1="6" x2="18" y2="18"></line>
+      </svg>
+    </button>
+
+    <!-- Header with icon -->
+    <div class="modal-header">
+      <div class="modal-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="12" y1="1" x2="12" y2="23"></line>
+          <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+        </svg>
+      </div>
+      <h2>{{ isEdit ? 'Edit Expense' : 'Add New Expense' }}</h2>
+      <p class="subtitle">{{ isEdit ? 'Update your expense details' : 'Track your spending to stay on budget' }}</p>
+    </div>
+
+    <!-- Form -->
+    <form [formGroup]="form" (ngSubmit)="onSubmit()">
+      <!-- Description field -->
+      <div class="form-group">
+        <label for="description" class="description-label">Description</label>
+        <input
+          type="text"
+          id="description"
+          formControlName="description"
+          placeholder="What did you spend on?"
+        />
+        <div class="error" *ngIf="form.controls['description'].touched && form.controls['description'].invalid">
+          Please enter a description for this expense
+        </div>
+      </div>
+
+      <!-- Amount field -->
+      <div class="form-group">
+        <label for="amount" class="amount-label">Amount</label>
+        <div class="input-container">
+          <span class="currency-symbol">₱</span>
+          <input
+            type="number"
+            id="amount"
+            formControlName="amount"
+            class="amount-input"
+            min="1"
+            placeholder="0.00"
+          />
+        </div>
+        <div class="error" *ngIf="form.controls['amount'].touched && form.controls['amount'].invalid">
+          Please enter a valid amount (minimum ₱1)
+        </div>
+      </div>
+
+      <!-- Category field -->
+      <div class="form-group">
+        <label for="categoryId" class="category-label">Category</label>
+        <select
+          id="categoryId"
+          formControlName="categoryId"
+        >
+          <option [value]="null" disabled selected>Select a category</option>
+          <option *ngFor="let cat of categories" [value]="cat.id">
+            {{ cat.name }}
+          </option>
+        </select>
+        <div class="error" *ngIf="form.controls['categoryId'].touched && form.controls['categoryId'].invalid">
+          Please select a category for this expense
+        </div>
+      </div>
+
+      <!-- Actions -->
+      <div class="actions">
+        <button type="button" class="btn btn-secondary" (click)="onClose()">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+          Cancel
+        </button>
+        <button 
+          type="submit" 
+          class="btn btn-primary" 
+          [disabled]="form.invalid"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"></path>
+            <polyline points="17 21 17 13 7 13 7 21"></polyline>
+            <polyline points="7 3 7 8 15 8"></polyline>
+          </svg>
+          {{ isEdit ? 'Update Expense' : 'Add Expense' }}
+        </button>
+      </div>
+    </form>
+  </div>
+</div>

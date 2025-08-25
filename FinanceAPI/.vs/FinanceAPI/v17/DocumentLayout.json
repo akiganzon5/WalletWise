@@ -1,0 +1,466 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\FinancerApp\\FinanceAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9C55AFF7-235B-4BEE-BE86-02FC2E8EF7D3}|FinanceAPI\\FinanceAPI.csproj|c:\\users\\aki ganzon\\desktop\\projects\\financerapp\\financeapi\\financeapi\\profiles\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C55AFF7-235B-4BEE-BE86-02FC2E8EF7D3}|FinanceAPI\\FinanceAPI.csproj|solutionrelative:financeapi\\profiles\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C55AFF7-235B-4BEE-BE86-02FC2E8EF7D3}|FinanceAPI\\FinanceAPI.csproj|c:\\users\\aki ganzon\\desktop\\projects\\financerapp\\financeapi\\financeapi\\services\\expensesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C55AFF7-235B-4BEE-BE86-02FC2E8EF7D3}|FinanceAPI\\FinanceAPI.csproj|solutionrelative:financeapi\\services\\expensesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C55AFF7-235B-4BEE-BE86-02FC2E8EF7D3}|FinanceAPI\\FinanceAPI.csproj|c:\\users\\aki ganzon\\desktop\\projects\\financerapp\\financeapi\\financeapi\\services\\walletservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C55AFF7-235B-4BEE-BE86-02FC2E8EF7D3}|FinanceAPI\\FinanceAPI.csproj|solutionrelative:financeapi\\services\\walletservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C55AFF7-235B-4BEE-BE86-02FC2E8EF7D3}|FinanceAPI\\FinanceAPI.csproj|c:\\users\\aki ganzon\\desktop\\projects\\financerapp\\financeapi\\financeapi\\model\\wallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C55AFF7-235B-4BEE-BE86-02FC2E8EF7D3}|FinanceAPI\\FinanceAPI.csproj|solutionrelative:financeapi\\model\\wallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C55AFF7-235B-4BEE-BE86-02FC2E8EF7D3}|FinanceAPI\\FinanceAPI.csproj|c:\\users\\aki ganzon\\desktop\\projects\\financerapp\\financeapi\\financeapi\\model\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C55AFF7-235B-4BEE-BE86-02FC2E8EF7D3}|FinanceAPI\\FinanceAPI.csproj|solutionrelative:financeapi\\model\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C55AFF7-235B-4BEE-BE86-02FC2E8EF7D3}|FinanceAPI\\FinanceAPI.csproj|c:\\users\\aki ganzon\\desktop\\projects\\financerapp\\financeapi\\financeapi\\model\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C55AFF7-235B-4BEE-BE86-02FC2E8EF7D3}|FinanceAPI\\FinanceAPI.csproj|solutionrelative:financeapi\\model\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C55AFF7-235B-4BEE-BE86-02FC2E8EF7D3}|FinanceAPI\\FinanceAPI.csproj|c:\\users\\aki ganzon\\desktop\\projects\\financerapp\\financeapi\\financeapi\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C55AFF7-235B-4BEE-BE86-02FC2E8EF7D3}|FinanceAPI\\FinanceAPI.csproj|solutionrelative:financeapi\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C55AFF7-235B-4BEE-BE86-02FC2E8EF7D3}|FinanceAPI\\FinanceAPI.csproj|c:\\users\\aki ganzon\\desktop\\projects\\financerapp\\financeapi\\financeapi\\dtos\\expensedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C55AFF7-235B-4BEE-BE86-02FC2E8EF7D3}|FinanceAPI\\FinanceAPI.csproj|solutionrelative:financeapi\\dtos\\expensedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C55AFF7-235B-4BEE-BE86-02FC2E8EF7D3}|FinanceAPI\\FinanceAPI.csproj|c:\\users\\aki ganzon\\desktop\\projects\\financerapp\\financeapi\\financeapi\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C55AFF7-235B-4BEE-BE86-02FC2E8EF7D3}|FinanceAPI\\FinanceAPI.csproj|solutionrelative:financeapi\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C55AFF7-235B-4BEE-BE86-02FC2E8EF7D3}|FinanceAPI\\FinanceAPI.csproj|c:\\users\\aki ganzon\\desktop\\projects\\financerapp\\financeapi\\financeapi\\dtos\\walletdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C55AFF7-235B-4BEE-BE86-02FC2E8EF7D3}|FinanceAPI\\FinanceAPI.csproj|solutionrelative:financeapi\\dtos\\walletdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C55AFF7-235B-4BEE-BE86-02FC2E8EF7D3}|FinanceAPI\\FinanceAPI.csproj|c:\\users\\aki ganzon\\desktop\\projects\\financerapp\\financeapi\\financeapi\\model\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C55AFF7-235B-4BEE-BE86-02FC2E8EF7D3}|FinanceAPI\\FinanceAPI.csproj|solutionrelative:financeapi\\model\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C55AFF7-235B-4BEE-BE86-02FC2E8EF7D3}|FinanceAPI\\FinanceAPI.csproj|c:\\users\\aki ganzon\\desktop\\projects\\financerapp\\financeapi\\financeapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C55AFF7-235B-4BEE-BE86-02FC2E8EF7D3}|FinanceAPI\\FinanceAPI.csproj|solutionrelative:financeapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C55AFF7-235B-4BEE-BE86-02FC2E8EF7D3}|FinanceAPI\\FinanceAPI.csproj|c:\\users\\aki ganzon\\desktop\\projects\\financerapp\\financeapi\\financeapi\\services\\userseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C55AFF7-235B-4BEE-BE86-02FC2E8EF7D3}|FinanceAPI\\FinanceAPI.csproj|solutionrelative:financeapi\\services\\userseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C55AFF7-235B-4BEE-BE86-02FC2E8EF7D3}|FinanceAPI\\FinanceAPI.csproj|c:\\users\\aki ganzon\\desktop\\projects\\financerapp\\financeapi\\financeapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9C55AFF7-235B-4BEE-BE86-02FC2E8EF7D3}|FinanceAPI\\FinanceAPI.csproj|solutionrelative:financeapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C55AFF7-235B-4BEE-BE86-02FC2E8EF7D3}|FinanceAPI\\FinanceAPI.csproj|c:\\users\\aki ganzon\\desktop\\projects\\financerapp\\financeapi\\financeapi\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C55AFF7-235B-4BEE-BE86-02FC2E8EF7D3}|FinanceAPI\\FinanceAPI.csproj|solutionrelative:financeapi\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C55AFF7-235B-4BEE-BE86-02FC2E8EF7D3}|FinanceAPI\\FinanceAPI.csproj|c:\\users\\aki ganzon\\desktop\\projects\\financerapp\\financeapi\\financeapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C55AFF7-235B-4BEE-BE86-02FC2E8EF7D3}|FinanceAPI\\FinanceAPI.csproj|solutionrelative:financeapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C55AFF7-235B-4BEE-BE86-02FC2E8EF7D3}|FinanceAPI\\FinanceAPI.csproj|c:\\users\\aki ganzon\\desktop\\projects\\financerapp\\financeapi\\financeapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9C55AFF7-235B-4BEE-BE86-02FC2E8EF7D3}|FinanceAPI\\FinanceAPI.csproj|solutionrelative:financeapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\FinancerApp\\FinanceAPI\\FinanceAPI\\Migrations\\20250823093006_firstMiga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FinanceAPI\\Migrations\\20250823093006_firstMiga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C55AFF7-235B-4BEE-BE86-02FC2E8EF7D3}|FinanceAPI\\FinanceAPI.csproj|c:\\users\\aki ganzon\\desktop\\projects\\financerapp\\financeapi\\financeapi\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C55AFF7-235B-4BEE-BE86-02FC2E8EF7D3}|FinanceAPI\\FinanceAPI.csproj|solutionrelative:financeapi\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C55AFF7-235B-4BEE-BE86-02FC2E8EF7D3}|FinanceAPI\\FinanceAPI.csproj|c:\\users\\aki ganzon\\desktop\\projects\\financerapp\\financeapi\\financeapi\\controllers\\walletcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C55AFF7-235B-4BEE-BE86-02FC2E8EF7D3}|FinanceAPI\\FinanceAPI.csproj|solutionrelative:financeapi\\controllers\\walletcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C55AFF7-235B-4BEE-BE86-02FC2E8EF7D3}|FinanceAPI\\FinanceAPI.csproj|c:\\users\\aki ganzon\\desktop\\projects\\financerapp\\financeapi\\financeapi\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C55AFF7-235B-4BEE-BE86-02FC2E8EF7D3}|FinanceAPI\\FinanceAPI.csproj|solutionrelative:financeapi\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C55AFF7-235B-4BEE-BE86-02FC2E8EF7D3}|FinanceAPI\\FinanceAPI.csproj|c:\\users\\aki ganzon\\desktop\\projects\\financerapp\\financeapi\\financeapi\\controllers\\expensecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C55AFF7-235B-4BEE-BE86-02FC2E8EF7D3}|FinanceAPI\\FinanceAPI.csproj|solutionrelative:financeapi\\controllers\\expensecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C55AFF7-235B-4BEE-BE86-02FC2E8EF7D3}|FinanceAPI\\FinanceAPI.csproj|c:\\users\\aki ganzon\\desktop\\projects\\financerapp\\financeapi\\financeapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C55AFF7-235B-4BEE-BE86-02FC2E8EF7D3}|FinanceAPI\\FinanceAPI.csproj|solutionrelative:financeapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C55AFF7-235B-4BEE-BE86-02FC2E8EF7D3}|FinanceAPI\\FinanceAPI.csproj|c:\\users\\aki ganzon\\desktop\\projects\\financerapp\\financeapi\\financeapi\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C55AFF7-235B-4BEE-BE86-02FC2E8EF7D3}|FinanceAPI\\FinanceAPI.csproj|solutionrelative:financeapi\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C55AFF7-235B-4BEE-BE86-02FC2E8EF7D3}|FinanceAPI\\FinanceAPI.csproj|c:\\users\\aki ganzon\\desktop\\projects\\financerapp\\financeapi\\financeapi\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C55AFF7-235B-4BEE-BE86-02FC2E8EF7D3}|FinanceAPI\\FinanceAPI.csproj|solutionrelative:financeapi\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C55AFF7-235B-4BEE-BE86-02FC2E8EF7D3}|FinanceAPI\\FinanceAPI.csproj|c:\\users\\aki ganzon\\desktop\\projects\\financerapp\\financeapi\\financeapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C55AFF7-235B-4BEE-BE86-02FC2E8EF7D3}|FinanceAPI\\FinanceAPI.csproj|solutionrelative:financeapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C55AFF7-235B-4BEE-BE86-02FC2E8EF7D3}|FinanceAPI\\FinanceAPI.csproj|c:\\users\\aki ganzon\\desktop\\projects\\financerapp\\financeapi\\financeapi\\migrations\\20250823133919_initmig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C55AFF7-235B-4BEE-BE86-02FC2E8EF7D3}|FinanceAPI\\FinanceAPI.csproj|solutionrelative:financeapi\\migrations\\20250823133919_initmig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\FinancerApp\\FinanceAPI\\FinanceAPI\\Program.cs",
+              "RelativeDocumentMoniker": "FinanceAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\FinancerApp\\FinanceAPI\\FinanceAPI\\Program.cs",
+              "RelativeToolTip": "FinanceAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T09:53:43.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\FinancerApp\\FinanceAPI\\FinanceAPI\\Profiles\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "FinanceAPI\\Profiles\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\FinancerApp\\FinanceAPI\\FinanceAPI\\Profiles\\MappingProfile.cs",
+              "RelativeToolTip": "FinanceAPI\\Profiles\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T10:29:42.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WalletDto.cs",
+              "DocumentMoniker": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\FinancerApp\\FinanceAPI\\FinanceAPI\\DTOs\\WalletDto.cs",
+              "RelativeDocumentMoniker": "FinanceAPI\\DTOs\\WalletDto.cs",
+              "ToolTip": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\FinancerApp\\FinanceAPI\\FinanceAPI\\DTOs\\WalletDto.cs",
+              "RelativeToolTip": "FinanceAPI\\DTOs\\WalletDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T10:10:22.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RegisterDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\FinancerApp\\FinanceAPI\\FinanceAPI\\DTOs\\RegisterDTO.cs",
+              "RelativeDocumentMoniker": "FinanceAPI\\DTOs\\RegisterDTO.cs",
+              "ToolTip": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\FinancerApp\\FinanceAPI\\FinanceAPI\\DTOs\\RegisterDTO.cs",
+              "RelativeToolTip": "FinanceAPI\\DTOs\\RegisterDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T03:03:34.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ExpenseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\FinancerApp\\FinanceAPI\\FinanceAPI\\DTOs\\ExpenseDto.cs",
+              "RelativeDocumentMoniker": "FinanceAPI\\DTOs\\ExpenseDto.cs",
+              "ToolTip": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\FinancerApp\\FinanceAPI\\FinanceAPI\\DTOs\\ExpenseDto.cs",
+              "RelativeToolTip": "FinanceAPI\\DTOs\\ExpenseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T09:30:03.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\FinancerApp\\FinanceAPI\\FinanceAPI\\DTOs\\CategoryDto.cs",
+              "RelativeDocumentMoniker": "FinanceAPI\\DTOs\\CategoryDto.cs",
+              "ToolTip": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\FinancerApp\\FinanceAPI\\FinanceAPI\\DTOs\\CategoryDto.cs",
+              "RelativeToolTip": "FinanceAPI\\DTOs\\CategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T03:56:57.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\FinancerApp\\FinanceAPI\\FinanceAPI\\Model\\AppUser.cs",
+              "RelativeDocumentMoniker": "FinanceAPI\\Model\\AppUser.cs",
+              "ToolTip": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\FinancerApp\\FinanceAPI\\FinanceAPI\\Model\\AppUser.cs",
+              "RelativeToolTip": "FinanceAPI\\Model\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T02:49:43.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\FinancerApp\\FinanceAPI\\FinanceAPI\\Model\\Category.cs",
+              "RelativeDocumentMoniker": "FinanceAPI\\Model\\Category.cs",
+              "ToolTip": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\FinancerApp\\FinanceAPI\\FinanceAPI\\Model\\Category.cs",
+              "RelativeToolTip": "FinanceAPI\\Model\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T03:55:09.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Expense.cs",
+              "DocumentMoniker": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\FinancerApp\\FinanceAPI\\FinanceAPI\\Model\\Expense.cs",
+              "RelativeDocumentMoniker": "FinanceAPI\\Model\\Expense.cs",
+              "ToolTip": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\FinancerApp\\FinanceAPI\\FinanceAPI\\Model\\Expense.cs",
+              "RelativeToolTip": "FinanceAPI\\Model\\Expense.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T11:31:54.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Wallet.cs",
+              "DocumentMoniker": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\FinancerApp\\FinanceAPI\\FinanceAPI\\Model\\Wallet.cs",
+              "RelativeDocumentMoniker": "FinanceAPI\\Model\\Wallet.cs",
+              "ToolTip": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\FinancerApp\\FinanceAPI\\FinanceAPI\\Model\\Wallet.cs",
+              "RelativeToolTip": "FinanceAPI\\Model\\Wallet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T10:14:25.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExpensesService.cs",
+              "DocumentMoniker": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\FinancerApp\\FinanceAPI\\FinanceAPI\\Services\\ExpensesService.cs",
+              "RelativeDocumentMoniker": "FinanceAPI\\Services\\ExpensesService.cs",
+              "ToolTip": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\FinancerApp\\FinanceAPI\\FinanceAPI\\Services\\ExpensesService.cs",
+              "RelativeToolTip": "FinanceAPI\\Services\\ExpensesService.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAHMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T07:54:35.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WalletService.cs",
+              "DocumentMoniker": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\FinancerApp\\FinanceAPI\\FinanceAPI\\Services\\WalletService.cs",
+              "RelativeDocumentMoniker": "FinanceAPI\\Services\\WalletService.cs",
+              "ToolTip": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\FinancerApp\\FinanceAPI\\FinanceAPI\\Services\\WalletService.cs",
+              "RelativeToolTip": "FinanceAPI\\Services\\WalletService.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAIwIkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T10:04:50.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\FinancerApp\\FinanceAPI\\FinanceAPI\\Services\\UserSeeder.cs",
+              "RelativeDocumentMoniker": "FinanceAPI\\Services\\UserSeeder.cs",
+              "ToolTip": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\FinancerApp\\FinanceAPI\\FinanceAPI\\Services\\UserSeeder.cs",
+              "RelativeToolTip": "FinanceAPI\\Services\\UserSeeder.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T13:25:45.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\FinancerApp\\FinanceAPI\\FinanceAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "FinanceAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\FinancerApp\\FinanceAPI\\FinanceAPI\\appsettings.json",
+              "RelativeToolTip": "FinanceAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-23T09:15:45.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "WalletController.cs",
+              "DocumentMoniker": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\FinancerApp\\FinanceAPI\\FinanceAPI\\Controllers\\WalletController.cs",
+              "RelativeDocumentMoniker": "FinanceAPI\\Controllers\\WalletController.cs",
+              "ToolTip": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\FinancerApp\\FinanceAPI\\FinanceAPI\\Controllers\\WalletController.cs",
+              "RelativeToolTip": "FinanceAPI\\Controllers\\WalletController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAE8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T09:53:16.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\FinancerApp\\FinanceAPI\\FinanceAPI\\Repository\\Repository.cs",
+              "RelativeDocumentMoniker": "FinanceAPI\\Repository\\Repository.cs",
+              "ToolTip": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\FinancerApp\\FinanceAPI\\FinanceAPI\\Repository\\Repository.cs",
+              "RelativeToolTip": "FinanceAPI\\Repository\\Repository.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAUwCsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T10:53:27.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20250823093006_firstMiga.cs",
+              "DocumentMoniker": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\FinancerApp\\FinanceAPI\\FinanceAPI\\Migrations\\20250823093006_firstMiga.cs",
+              "RelativeDocumentMoniker": "FinanceAPI\\Migrations\\20250823093006_firstMiga.cs",
+              "ToolTip": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\FinancerApp\\FinanceAPI\\FinanceAPI\\Migrations\\20250823093006_firstMiga.cs",
+              "RelativeToolTip": "FinanceAPI\\Migrations\\20250823093006_firstMiga.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T09:30:07.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\FinancerApp\\FinanceAPI\\FinanceAPI\\Dockerfile",
+              "RelativeDocumentMoniker": "FinanceAPI\\Dockerfile",
+              "ToolTip": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\FinancerApp\\FinanceAPI\\FinanceAPI\\Dockerfile",
+              "RelativeToolTip": "FinanceAPI\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-08-23T10:50:54.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\FinancerApp\\FinanceAPI\\FinanceAPI\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "FinanceAPI\\Extensions\\ServiceCollectionExtensions.cs",
+              "ToolTip": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\FinancerApp\\FinanceAPI\\FinanceAPI\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeToolTip": "FinanceAPI\\Extensions\\ServiceCollectionExtensions.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAEEAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T02:52:35.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\FinancerApp\\FinanceAPI\\FinanceAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "FinanceAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\FinancerApp\\FinanceAPI\\FinanceAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "FinanceAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T04:42:28.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "20250823133919_initMig.cs",
+              "DocumentMoniker": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\FinancerApp\\FinanceAPI\\FinanceAPI\\Migrations\\20250823133919_initMig.cs",
+              "RelativeDocumentMoniker": "FinanceAPI\\Migrations\\20250823133919_initMig.cs",
+              "ToolTip": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\FinancerApp\\FinanceAPI\\FinanceAPI\\Migrations\\20250823133919_initMig.cs",
+              "RelativeToolTip": "FinanceAPI\\Migrations\\20250823133919_initMig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T13:39:19.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\FinancerApp\\FinanceAPI\\FinanceAPI\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "FinanceAPI\\Services\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\FinancerApp\\FinanceAPI\\FinanceAPI\\Services\\CategoryService.cs",
+              "RelativeToolTip": "FinanceAPI\\Services\\CategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T02:50:54.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\FinancerApp\\FinanceAPI\\FinanceAPI\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "FinanceAPI\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\FinancerApp\\FinanceAPI\\FinanceAPI\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "FinanceAPI\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T02:32:43.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ExpenseController.cs",
+              "DocumentMoniker": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\FinancerApp\\FinanceAPI\\FinanceAPI\\Controllers\\ExpenseController.cs",
+              "RelativeDocumentMoniker": "FinanceAPI\\Controllers\\ExpenseController.cs",
+              "ToolTip": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\FinancerApp\\FinanceAPI\\FinanceAPI\\Controllers\\ExpenseController.cs",
+              "RelativeToolTip": "FinanceAPI\\Controllers\\ExpenseController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T11:33:58.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\FinancerApp\\FinanceAPI\\FinanceAPI\\Repository\\IRepository.cs",
+              "RelativeDocumentMoniker": "FinanceAPI\\Repository\\IRepository.cs",
+              "ToolTip": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\FinancerApp\\FinanceAPI\\FinanceAPI\\Repository\\IRepository.cs",
+              "RelativeToolTip": "FinanceAPI\\Repository\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T10:53:26.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\FinancerApp\\FinanceAPI\\FinanceAPI\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "FinanceAPI\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\FinancerApp\\FinanceAPI\\FinanceAPI\\Services\\AuthService.cs",
+              "RelativeToolTip": "FinanceAPI\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T03:05:10.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\FinancerApp\\FinanceAPI\\FinanceAPI\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "FinanceAPI\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\FinancerApp\\FinanceAPI\\FinanceAPI\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "FinanceAPI\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T02:56:54.603Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

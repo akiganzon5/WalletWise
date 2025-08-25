@@ -1,0 +1,42 @@
+<header class="header">
+  <nav class="nav-container">
+    <ul class="nav-links">
+      <li>
+        <a routerLink="/wallet" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" class="nav-item">
+          <lucide-icon name="Home" class="icon"></lucide-icon>
+          <span>Home</span>
+        </a>
+      </li>
+      <li>
+        <a routerLink="/categories" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" class="nav-item">
+          <lucide-icon name="Folder" class="icon"></lucide-icon>
+          <span>Category</span>
+        </a>
+      </li>
+      <li>
+        <a routerLink="/all/wallets" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" class="nav-item">
+          <lucide-icon name="Wallet" class="icon"></lucide-icon>
+          <span>Wallets</span>
+        </a>
+      </li>
+      <li>
+        <a routerLink="/analytics" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" class="nav-item">
+          <lucide-icon name="BarChart3" class="icon"></lucide-icon>
+          <span>Analytics</span>
+        </a>
+      </li>
+
+      <!-- 🔹 Logout button only visible if logged in -->
+      <li *ngIf="isLoggedIn()">
+        <button (click)="logout()" class="nav-item logout-btn">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
+            <polyline points="16 17 21 12 16 7"></polyline>
+            <line x1="21" y1="12" x2="9" y2="12"></line>
+          </svg>
+          <span>Logout</span>
+        </button>
+      </li>
+    </ul>
+  </nav>
+</header>

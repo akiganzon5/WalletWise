@@ -1,0 +1,59 @@
+<div class="category-container">
+  <div class="header">
+    <div>
+      <h1>Categories</h1>
+      <p class="subtitle">Organize your expenses with custom categories</p>
+    </div>
+    <button class="add-btn" (click)="openAddCategory()">
+      <lucide-icon [name]="Plus" size="18"></lucide-icon> 
+      Add Category
+    </button>
+  </div>
+
+  <!-- Loading state -->
+  <div *ngIf="loading" class="loading">
+    <div class="spinner"></div>
+    <p>Loading your categories...</p>
+  </div>
+
+  <!-- Error state -->
+  <div *ngIf="error" class="error">
+    <p>{{ error }}</p>
+  </div>
+
+  <!-- Empty state -->
+  <div *ngIf="!loading && !error && categories.length === 0" class="empty">
+    <lucide-icon name="folder-open" size="64" class="empty-icon"></lucide-icon>
+    <h3>No categories yet</h3>
+    <p>Create your first category to start organizing expenses</p>
+  </div>
+
+  <!-- Categories list -->
+  <ul class="category-list" *ngIf="!loading && categories.length > 0">
+    <li class="category-item" *ngFor="let cat of categories">
+      <span class="category-name">{{ cat.name }}</span>
+      <div class="actions">
+        <button class="btn-icon edit" (click)="openEditCategory(cat)" aria-label="Edit category">
+          <lucide-icon [name]="Edit" size="16"></lucide-icon>
+        </button>
+        <button class="btn-icon delete" (click)="confirmDeleteCategory(cat.id)" aria-label="Delete category">
+          <lucide-icon [name]="Trash2" size="16"></lucide-icon>
+        </button>
+      </div>
+    </li>
+  </ul>
+</div>
+
+<app-category-modal
+  [show]="showCategoryModal"
+  [isEdit]="isEdit"
+  [category]="editingCategory"
+  (close)="showCategoryModal = false"
+  (save)="saveCategory($event)">
+</app-category-modal>
+
+<app-confirmation-modal 
+  [visible]="showConfirmDelete"
+  (confirm)="deleteCategoryConfirmed()"
+  (cancel)="showConfirmDelete = false">
+</app-confirmation-modal>

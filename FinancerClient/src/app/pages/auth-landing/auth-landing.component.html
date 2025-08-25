@@ -1,0 +1,59 @@
+<div class="page">
+  <div class="bg"></div>
+
+  <div class="glass">
+    <!-- LEFT SIDE - Brand & Value Proposition -->
+    <section class="left">
+      <h1 class="brand">WalletWise</h1>
+      <p class="tagline">
+        Take control of your finances with our intuitive budgeting app. 
+        Track expenses, set goals, and achieve financial freedom.
+      </p>
+      
+      <ul class="features">
+        <li>Track income and expenses effortlessly</li>
+        <li>Create custom spending categories</li>
+        <li>Visualize your financial health with analytics</li>
+        <li>Sync across all your devices</li>
+      </ul>
+    </section>
+
+    <!-- RIGHT SIDE - Auth Form -->
+    <section class="right">
+      <div class="card">
+        <h2>{{ isLogin ? 'Welcome Back' : 'Create Account' }}</h2>
+        <p class="subtext">
+          {{ isLogin ? 'Sign in to continue your financial journey' : 'Join thousands managing their money wisely' }}
+        </p>
+
+        <form (ngSubmit)="onSubmit()" #f="ngForm" novalidate>
+          <div class="input-group">
+            <ng-container *ngIf="isLogin; else registerTpl">
+              <input type="email" name="email" [(ngModel)]="loginDto.email" placeholder="Email address" required />
+              <input type="password" name="password" [(ngModel)]="loginDto.password" placeholder="Password" required />
+            </ng-container>
+
+            <ng-template #registerTpl>
+              <input type="text" name="username" [(ngModel)]="registerDto.username" placeholder="Full name" required />
+              <input type="email" name="regEmail" [(ngModel)]="registerDto.email" placeholder="Email address" required />
+              <input type="password" name="regPassword" [(ngModel)]="registerDto.password" placeholder="Create password" required />
+            </ng-template>
+          </div>
+
+          <button type="submit" [disabled]="f.invalid || loading" [class.loading]="loading">
+            {{ loading ? 'Please wait...' : (isLogin ? 'Sign in' : 'Create account') }}
+          </button>
+
+          <p class="muted" *ngIf="error">{{ error }}</p>
+        </form>
+
+        <p class="switch">
+          {{ isLogin ? "Don't have an account?" : "Already have an account?" }}
+          <a class="link" (click)="toggleMode()">
+            {{ isLogin ? 'Sign up now' : 'Sign in' }}
+          </a>
+        </p>
+      </div>
+    </section>
+  </div>
+</div>

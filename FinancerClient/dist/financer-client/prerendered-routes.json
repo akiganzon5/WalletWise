@@ -1,0 +1,9 @@
+{
+  "routes": {
+    "/financeapp": {},
+    "/financeapp/all/wallets": {},
+    "/financeapp/analytics": {},
+    "/financeapp/categories": {},
+    "/financeapp/wallet": {}
+  }
+}

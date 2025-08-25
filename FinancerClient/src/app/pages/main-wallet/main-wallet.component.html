@@ -1,0 +1,220 @@
+<div class="main-wallet-container" *ngIf="!loading">
+  <!-- When no wallet exists -->
+  <div *ngIf="!wallet" class="no-wallet-state">
+    <div class="illustration">
+      <svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+        <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+        <circle cx="12" cy="12" r="2"></circle>
+        <path d="M6 7h12"></path>
+      </svg>
+    </div>
+    <h1 class="title">WalletWise</h1>
+    <p class="subtitle">
+      Track your income and expenses with clarity. Stay in control of your finances.
+    </p>
+    <div class="features">
+      <div class="feature">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+          <polyline points="22 4 12 14.01 9 11.01"></polyline>
+        </svg>
+        <span>Track income & expenses</span>
+      </div>
+      <div class="feature">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+          <polyline points="22 4 12 14.01 9 11.01"></polyline>
+        </svg>
+        <span>Visual spending insights</span>
+      </div>
+      <div class="feature">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+          <polyline points="22 4 12 14.01 9 11.01"></polyline>
+        </svg>
+        <span>Monthly budgeting</span>
+      </div>
+    </div>
+    <button class="btn-primary" (click)="onAddWallet()">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="12" y1="5" x2="12" y2="19"></line>
+        <line x1="5" y1="12" x2="19" y2="12"></line>
+      </svg>
+      Create Your First Wallet
+    </button>
+  </div>
+
+  <!-- When wallet exists -->
+  <div *ngIf="wallet" class="wallet-dashboard">
+    <!-- Header with wallet info -->
+    <div class="wallet-header">
+      <div class="month-display">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+          <line x1="16" y1="2" x2="16" y2="6"></line>
+          <line x1="8" y1="2" x2="8" y2="6"></line>
+          <line x1="3" y1="10" x2="21" y2="10"></line>
+        </svg>
+        <span>{{ wallet.month | date:'MMMM y' }}</span>
+      </div>
+      <div class="header-actions">
+        <button class="icon-btn" (click)="onAddExpense()" aria-label="Add expense">
+          <lucide-icon [img]="Plus"></lucide-icon>
+        </button>
+        <button class="icon-btn" (click)="confirmArchiveWallet()" aria-label="Archive wallet">
+          <lucide-icon [img]="Archive"></lucide-icon>
+        </button>
+      </div>
+    </div>
+
+    <!-- Financial summary cards -->
+    <div class="summary-cards">
+      <div class="summary-card income-card">
+        <div class="card-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="12" y1="19" x2="12" y2="5"></line>
+            <polyline points="5 12 12 5 19 12"></polyline>
+          </svg>
+        </div>
+        <div class="card-content">
+          <span class="card-label">Income</span>
+          <span class="card-value">₱{{ wallet.income | number:'1.0-0' }}</span>
+        </div>
+      </div>
+
+      <div class="summary-card expenses-card">
+        <div class="card-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="12" y1="5" x2="12" y2="19"></line>
+            <polyline points="19 12 12 19 5 12"></polyline>
+          </svg>
+        </div>
+        <div class="card-content">
+          <span class="card-label">Expenses</span>
+          <span class="card-value">₱{{ wallet.totalExpenses | number:'1.0-0' }}</span>
+        </div>
+      </div>
+
+      <div class="summary-card balance-card" [class.negative]="wallet.balance < 0">
+        <div class="card-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="12" y1="20" x2="12" y2="10"></line>
+            <line x1="18" y1="20" x2="18" y2="4"></line>
+            <line x1="6" y1="20" x2="6" y2="16"></line>
+          </svg>
+        </div>
+        <div class="card-content">
+          <span class="card-label">Balance</span>
+          <span class="card-value">₱{{ wallet.balance | number:'1.0-0' }}</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Progress bar showing spending vs income -->
+    <div class="spending-progress">
+      <div class="progress-header">
+        <span>Spending Progress</span>
+        <span>{{ getExpensePercentage(wallet) | number:'1.0-0' }}% of income</span>
+      </div>
+      <div class="progress-bar">
+        <div class="progress-fill" [style.width.%]="getExpensePercentage(wallet)"></div>
+      </div>
+    </div>
+
+    <!-- Expenses Section -->
+    <div class="expenses-section">
+      <div class="section-header">
+        <h3>Recent Expenses</h3>
+        <span class="expenses-total">₱{{ wallet.totalExpenses | number:'1.0-0' }}</span>
+      </div>
+
+      <div *ngIf="wallet.expenses.length === 0" class="empty-expenses">
+        <div class="empty-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="12" y1="8" x2="12" y2="12"></line>
+            <line x1="12" y1="16" x2="12.01" y2="16"></line>
+          </svg>
+        </div>
+        <p>No expenses recorded yet</p>
+        <button class="btn-primary" (click)="onAddExpense()">
+          <lucide-icon [img]="Plus"></lucide-icon>
+          Add Your First Expense
+        </button>
+      </div>
+
+      <div class="expenses-list" *ngIf="wallet.expenses.length > 0">
+        <div *ngFor="let expense of wallet.expenses" class="expense-item">
+          <div class="expense-icon">
+            <div class="icon-wrapper" [style.background]="getCategoryColor(expense.categoryName)">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="12" y1="1" x2="12" y2="23"></line>
+                <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+              </svg>
+            </div>
+          </div>
+          <div class="expense-details">
+            <div class="expense-description">{{ expense.description }}</div>
+            <div class="expense-meta">
+              <span class="expense-category">{{ expense.categoryName }}</span>
+              <span class="expense-date">{{ expense.date | date:'MMM d' }}</span>
+            </div>
+          </div>
+          <div class="expense-amount">₱{{ expense.amount | number:'1.0-0' }}</div>
+          <div class="expense-actions">
+            <button class="icon-btn" (click)="$event.stopPropagation(); onEditExpense(expense.id)" aria-label="Edit expense">
+              <lucide-icon [img]="Edit"></lucide-icon>
+            </button>
+            <button class="icon-btn danger" (click)="$event.stopPropagation(); confirmDeleteExpense(expense.id)" aria-label="Delete expense">
+              <lucide-icon [img]="Trash2"></lucide-icon>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Add expense FAB for mobile -->
+    <button class="fab-btn" (click)="onAddExpense()" aria-label="Add expense">
+      <lucide-icon [img]="Plus"></lucide-icon>
+    </button>
+  </div>
+</div>
+
+<!-- Wallet Modal -->
+<app-wallet-modal
+  [visible]="showWalletModal"
+  (save)="handleSaveWallet($event)"
+  (close)="showWalletModal = false">
+</app-wallet-modal>
+
+<!-- Expense Modal -->
+<app-expense-modal
+  [visible]="showExpenseModal"
+  [walletId]="wallet?.id || 0"
+  [expense]="selectedExpense"
+  (save)="handleSaveExpense($event)"
+  (close)="showExpenseModal = false">
+</app-expense-modal>
+
+<!-- Delete Confirmation -->
+<app-confirmation-modal
+  [visible]="showConfirmDelete"
+  title="Delete Expense"
+  message="Do you really want to delete this expense? This action cannot be undone."
+  confirmText="Delete"
+  cancelText="Cancel"
+  (confirm)="deleteExpenseConfirmed()"
+  (cancel)="showConfirmDelete = false">
+</app-confirmation-modal>
+
+<!-- Archive Confirmation -->
+<app-confirmation-modal
+  [visible]="showConfirmArchive"
+  title="Archive Wallet"
+  message="Are you sure you want to archive this wallet? It will be moved to your archived wallets and will no longer appear in active tracking."
+  confirmText="Archive"
+  cancelText="Cancel"
+  (confirm)="archiveWalletConfirmed()"
+  (cancel)="showConfirmArchive = false">
+</app-confirmation-modal>

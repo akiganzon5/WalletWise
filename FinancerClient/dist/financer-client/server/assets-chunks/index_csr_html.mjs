@@ -1,0 +1,14 @@
+export default `<!doctype html>
+<html lang="en" data-beasties-container="">
+<head>
+  <meta charset="utf-8">
+  <title>FinancerClient</title>
+  <base href="/financeapp/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+<style>*{box-sizing:border-box;margin:0;padding:0}body{font-family:Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,sans-serif;color:#1f2937;line-height:1.6;overflow-x:hidden}html{scroll-behavior:smooth}:root{--fa-family-brands:"Font Awesome 7 Brands";--fa-font-brands:normal 400 1em/1 var(--fa-family-brands)}:root{--fa-font-regular:normal 400 1em/1 var(--fa-family-classic)}:root{--fa-family-classic:"Font Awesome 7 Free";--fa-font-solid:normal 900 1em/1 var(--fa-family-classic);--fa-style-family-classic:var(--fa-family-classic)}</style><link rel="stylesheet" href="styles-4S7TYYLD.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles-4S7TYYLD.css"></noscript></head>
+<body ngcm="">
+  <app-root></app-root>
+<script src="polyfills-B6TNHZQ6.js" type="module"></script><script src="main-PHOWBL2K.js" type="module"></script></body>
+</html>
+`;
